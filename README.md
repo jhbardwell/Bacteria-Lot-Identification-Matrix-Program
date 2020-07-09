@@ -1,5 +1,5 @@
 # Bacteria-Lot-Identification-Matrix-Program
-A Python 2.7 script with 2,687 lines of code used to identify bacteria using a matrix of phenotypic traits analyzed using the Bayes Theorem. This program was created in 2012 at Baylor University to analyze freshwater samples for the Hartman Lab and is copyrighted under a GNU license. Use any part of this program you wish with my blessing, just credit the author.
+A Python 3.6.9 script with 2,687 lines of code used to identify bacteria using a matrix of phenotypic traits analyzed using the Bayes Theorem. This program was created using Python 2.7 in 2012 at Baylor University to analyze freshwater samples for the Hartman Lab and is copyrighted under a GNU license. It was then rewritten using Python 3.6 in 2020. Use any part of this program you wish with my blessing, just credit the author.
 
 This repository contains:
 1) a program .py file that requires Python 3.X and an IDE to run 
