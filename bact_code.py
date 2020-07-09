@@ -1,10 +1,11 @@
-from Tkinter import (N, S, E, W, BOTH, BOTTOM, END, FLAT, HORIZONTAL, INSERT, LEFT, NO, RAISED, RIGHT, TOP, YES,
+from tkinter import (N, S, E, W, BOTH, BOTTOM, END, FLAT, HORIZONTAL, INSERT, LEFT, NO, RAISED, RIGHT, TOP, YES,
 Button, Entry, Frame, Grid, Label, Menu, Pack, Radiobutton, Scale, StringVar, Text, Toplevel, Tk)
 
 from operator import mul
+from functools import reduce
 
 root = Tk()
-root.title("B. L. I. M. P. Bacteria Lot Identification Matrix Program")
+root.title("B. L. I. M. P.                             Bacteria Lot Identification Matrix Program")
 
 class AutocompleteEntry(Entry):
         
@@ -2203,7 +2204,7 @@ class Bacteria:
         def minus(matrix, i):
             return [1.00-row[i] for row in matrix]
 
-        bact=zip(*bac)
+        bact=list(zip(*bac))
         bact2=bact[0:3]
         bact3=bact[0:3]
             
@@ -2662,8 +2663,8 @@ class Bacteria:
             bact2.append(minus(bac,67))
             bact3.append(plus(bac,67))
 
-        bac2=zip(*bact2)
-        bac3=zip(*bact3)
+        bac2=list(zip(*bact2))
+        bac3=list(zip(*bact3))
 
         bac4={}
 
